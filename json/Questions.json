@@ -1,4 +1,21 @@
 {
     "assessmentItems": [
+        {
+            "subject": "quiz",
+            "author": "fguzman002@ikasle.ehu.eus",
+            "itemBody": {
+                "p": "primera pregunta"
+            },
+            "correctResponse": {
+                "value": "respuesta correcta"
+            },
+            "incorrectResponses": {
+                "value": [
+                    "respuesta incorrecta 1",
+                    "respuesata incorrecta 2",
+                    "respuesta incorrecta 3"
+                ]
+            }
+        }
     ]
 }

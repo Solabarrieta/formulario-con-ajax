@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ShowXmlQuestions.xsl" ?>
 <assessmentItems>
+  <assesmentItem subject="quiz" author="fguzman002@ikasle.ehu.eus">
+    <itemBody>
+      <p>primera pregunta</p>
+    </itemBody>
+    <correctResponse>
+      <response>respuesta correcta</response>
+    </correctResponse>
+    <incorrectResponses>
+      <response>respuesta incorrecta 1</response>
+      <response>respuesata incorrecta 2</response>
+      <response>respuesta incorrecta 3</response>
+    </incorrectResponses>
+  </assesmentItem>
 </assessmentItems>
