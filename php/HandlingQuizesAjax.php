@@ -86,6 +86,16 @@
             <td></td>
               <td align="left"> <button id="botonPreg" onclick="" name="botonPreg" value="Enviar solicitud">Enviar solicitud</button></td>
             </tr>
+            <tr>
+              <td></td>
+              <td align="right"> <input type="button" value="show Questions" onclick="showTable()"></td>
+              
+            </tr>
+            <tr>
+              <td></td>
+              <td align="right"> <input type="button" value="hide questions" onclick="hideTable()"></td>
+              
+            </tr>
           </table>
         </form>
         <div class="showQuestions" id="showQuestions"></div>
@@ -96,6 +106,7 @@
   <script type="text/javascript" src="../js/RemoveImageInForm.js"></script>
   <script type="text/javascript" src="../js/CountQuestions.js"></script>
   <script type="text/javascript" src="../js/AddQuestionsAjax.js"></script>
+  <script type="text/javascript" src="../js/showQuestionsAjax.js"></script>
 
   <!-- <script type="text/javascript" src="../js/ValidateFieldsQuestionJQ.js"></script> -->
   <?php include '../html/Footer.html' ?>

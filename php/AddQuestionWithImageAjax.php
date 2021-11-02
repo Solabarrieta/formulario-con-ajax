@@ -36,6 +36,7 @@
           $er3 = "/^[a-zA-Z]+@ehu\.(eus|es)$/";
           if($correo == ""){
             $errorCount += 1;
+            echo"correo incorrecto";
           }
           else if(!(preg_match($er,$correo) || preg_match($er2,$correo) || preg_match($er3,$correo))){
             $errorCount += 1;

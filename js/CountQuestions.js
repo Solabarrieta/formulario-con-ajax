@@ -31,19 +31,4 @@ const counterQuestions = function () {
 counterQuestions();
 setInterval(counterQuestions, 10000);
 
-const showTable = function (){
-  const XMLHttpRequestShow = new XMLHttpRequest();
-  const $showQuestions = document.getElementById('showQuestions');
 
-  XMLHttpRequestShow.addEventListener('readystatechange', () => {
-    if (XMLHttpRequestShow.readyState !== 4) return;
-
-    $showQuestions.innerHTML = XMLHttpRequestShow.response;
-  });
-
-  XMLHttpRequestShow.open('GET', '../php/ShowQuestionsAJax.php');
-  XMLHttpRequestShow.send();
-}
-
-showTable();
-setInterval(showTable(),3000);

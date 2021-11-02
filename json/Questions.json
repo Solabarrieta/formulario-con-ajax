@@ -106,7 +106,7 @@
             "subject": "quiz",
             "author": "fguzman002@ikasle.ehu.eus",
             "itemBody": {
-                "p": "segunda pregunta"
+                "p": "tercero pregunta"
             },
             "correctResponse": {
                 "value": "respuesta correcta"
@@ -172,7 +172,7 @@
         },
         {
             "subject": "quiz",
-            "author": "fguzman002@ikasle.ehu.eus",
+            "author": "vadillo@ehu.eus",
             "itemBody": {
                 "p": "segunda pregunta"
             },
@@ -209,6 +209,40 @@
             "author": "fguzman002@ikasle.ehu.eus",
             "itemBody": {
                 "p": "cuarta pregunta"
+            },
+            "correctResponse": {
+                "value": "respuesta correcta"
+            },
+            "incorrectResponses": {
+                "value": [
+                    "respuesta incorrecta 1",
+                    "respuesata incorrecta 2",
+                    "respuesta incorrecta 3"
+                ]
+            }
+        },
+        {
+            "subject": "quiz",
+            "author": "fguzman002@ikasle.ehu.eus",
+            "itemBody": {
+                "p": "quinta pregunta"
+            },
+            "correctResponse": {
+                "value": "respuesta correcta"
+            },
+            "incorrectResponses": {
+                "value": [
+                    "respuesta incorrecta 1",
+                    "respuesata incorrecta 2",
+                    "respuesta incorrecta 3"
+                ]
+            }
+        },
+        {
+            "subject": "quiz",
+            "author": "fguzman002@ikasle.ehu.eus",
+            "itemBody": {
+                "p": "sexta pregunta"
             },
             "correctResponse": {
                 "value": "respuesta correcta"
