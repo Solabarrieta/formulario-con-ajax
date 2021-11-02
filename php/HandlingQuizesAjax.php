@@ -2,7 +2,9 @@
 <html>
 <head>
   <?php include '../html/Head.html'?>
+
 </head>
+
 <body>
   <?php include '../php/Menus.php' ?>
   <section class="main" id="s1">
@@ -15,13 +17,16 @@
           }
         </style>
         <?php if (isset($_GET['correo'])){ ?>
-          <form id="fquestion" name="fquestion" action="AddQuestionWithImage.php?correo=<?php echo $_GET["correo"]; ?>" enctype="multipart/form-data"  method = "POST" onsubmit = "return validacion()" actionstyle="width: 60%; margin: 0px auto;">
+          <form id="fquestion" name="fquestion" action="AddQuestionWithImage.php?correo=<?php echo $_GET["correo"]; ?>" enctype="multipart/form-data"  method = "POST" onsubmit = {addQuestion} actionstyle="width: 60%; margin: 0px auto;">
         <?php }else{ ?>  
           <form id="fquestion" name="fquestion" action="AddQuestionWithImage.php" enctype="multipart/form-data"  method = "POST" onsubmit = "return validacion()" actionstyle="width: 60%; margin: 0px auto;">
         <?php }?> 
         <table style="border:4px solid #c1e9f6;" bgcolor="#9cc4e8">
             <caption style="text-align:left">
               <h2>Pregunta para el quiz</h2> 
+              <div class="countQuestions__Container" id="countID">
+                <p class="countquestions" id="countQuestions">Mis preguntas/Todas las preguntas:</p>
+              </div>
             </caption>
             <tr>
               <td align="right">Dirección de correo (*): </td>
@@ -79,15 +84,19 @@
             </tr>
             <tr>
             <td></td>
-              <td align="left"><input type="button" id="botonPreg" name="botonPreg" value="Enviar solicitud"></button></td>
+              <td align="left"> <button id="botonPreg" onclick="" name="botonPreg" value="Enviar solicitud">Enviar solicitud</button></td>
             </tr>
           </table>
         </form>
+        <div class="showQuestions" id="showQuestions"></div>
     </div>
   </section>
   <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="../js/ShowImageInForm.js"></script>
   <script type="text/javascript" src="../js/RemoveImageInForm.js"></script>
+  <script type="text/javascript" src="../js/CountQuestions.js"></script>
+  <script type="text/javascript" src="../js/AddQuestionsAjax.js"></script>
+
   <!-- <script type="text/javascript" src="../js/ValidateFieldsQuestionJQ.js"></script> -->
   <?php include '../html/Footer.html' ?>
 </body>

@@ -1,6 +1,7 @@
+/* eslint-disable no-alert */
+/* eslint-disable no-unused-vars */
 function alertaBienvenido() {
-    var correo = document.flogin.correo.value;
-    alert('Bienvenido al Sistema:  '+correo );
-    return (true);
-    
+  const correo = document.flogin.correo.value;
+  alert(`Bienvenido al Sistema:  ${correo}`);
+  return true;
 }
