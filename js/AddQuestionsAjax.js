@@ -8,14 +8,9 @@ form.addEventListener('submit', (event) => {
   fetch('../php/AddQuestionWithImageAjax.php', {
     method: 'post',
     body: formData,
-  })
-    .then((response) => response.text())
-    .then((text) => {
-      console.log(text);
-    })
-    .catch((error) => {
-      console.error(error);
-    });
+  }).catch((error) => {
+    console.error(error);
+  });
 });
 
 const addQuestion = (event) => {

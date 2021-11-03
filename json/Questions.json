@@ -254,6 +254,91 @@
                     "respuesta incorrecta 3"
                 ]
             }
+        },
+        {
+            "subject": "quiz",
+            "author": "vadillo@ehu.es",
+            "itemBody": {
+                "p": "segunda pregunta"
+            },
+            "correctResponse": {
+                "value": "respuesta correcta"
+            },
+            "incorrectResponses": {
+                "value": [
+                    "respuesta incorrecta 1",
+                    "respuesata incorrecta 2",
+                    "respuesta incorrecta 3"
+                ]
+            }
+        },
+        {
+            "subject": "quiz",
+            "author": "vadillo@ehu.es",
+            "itemBody": {
+                "p": "tercera pregunta"
+            },
+            "correctResponse": {
+                "value": "respuesta correcta"
+            },
+            "incorrectResponses": {
+                "value": [
+                    "respuesta incorrecta 1",
+                    "respuesata incorrecta 2",
+                    "respuesta incorrecta 3"
+                ]
+            }
+        },
+        {
+            "subject": "quiz",
+            "author": "vadillo@ehu.es",
+            "itemBody": {
+                "p": "cuarta pregunta"
+            },
+            "correctResponse": {
+                "value": "respuesta correcta"
+            },
+            "incorrectResponses": {
+                "value": [
+                    "respuesta incorrecta 1",
+                    "respuesata incorrecta 2",
+                    "respuesta incorrecta 3"
+                ]
+            }
+        },
+        {
+            "subject": "quiz",
+            "author": "fguzman002@ikasle.ehu.eus",
+            "itemBody": {
+                "p": "fdsaljfdsa pregunta"
+            },
+            "correctResponse": {
+                "value": "respuesta correcta"
+            },
+            "incorrectResponses": {
+                "value": [
+                    "respuesta incorrecta 1",
+                    "respuesata incorrecta 2",
+                    "respuesta incorrecta 3"
+                ]
+            }
+        },
+        {
+            "subject": "quiz",
+            "author": "fguzman002@ikasle.ehu.eus",
+            "itemBody": {
+                "p": "ns pregunta"
+            },
+            "correctResponse": {
+                "value": "respuesta correcta"
+            },
+            "incorrectResponses": {
+                "value": [
+                    "respuesta incorrecta 1",
+                    "respuesata incorrecta 2",
+                    "respuesta incorrecta 3"
+                ]
+            }
         }
     ]
 }
