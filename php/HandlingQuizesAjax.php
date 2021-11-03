@@ -98,6 +98,8 @@
             </tr>
           </table>
         </form>
+        
+        <div class="server__response" id="server__response"></div>
         <div class="showQuestions" id="showQuestions"></div>
     </div>
   </section>

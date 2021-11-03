@@ -1,6 +1,3 @@
-  <?php include '../php/Menus.php' ?>
-  <section class="main" id="s1">
-    <div>
       <?php
         $errorCount = 0;
 
@@ -163,7 +160,5 @@
               echo '<a href="ShowQuestionsWithImage.php?correo='.$correo.'">VISUALIZAR PREGUNTAS</a>';
             }
           }
-        //}	
+      exit();
       ?>
-    </div>
-  </section>
