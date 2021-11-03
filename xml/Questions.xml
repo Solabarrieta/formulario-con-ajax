@@ -1054,4 +1054,82 @@
       <response>respuesta incorrecta 3</response>
     </incorrectResponses>
   </assesmentItem>
+  <assesmentItem subject="jkh" author="fguzman002@ikasle.ehu.eus">
+    <itemBody>
+      <p>segunda pregunta</p>
+    </itemBody>
+    <correctResponse>
+      <response>respuesta correcta</response>
+    </correctResponse>
+    <incorrectResponses>
+      <response>respuesta incorrecta 1</response>
+      <response>lk</response>
+      <response>jl</response>
+    </incorrectResponses>
+  </assesmentItem>
+  <assesmentItem subject="jkh" author="fguzman002@ikasle.ehu.eus">
+    <itemBody>
+      <p>tefklasjflska pregunta</p>
+    </itemBody>
+    <correctResponse>
+      <response>respuesta correcta</response>
+    </correctResponse>
+    <incorrectResponses>
+      <response>respuesta incorrecta 1</response>
+      <response>lk</response>
+      <response>jl</response>
+    </incorrectResponses>
+  </assesmentItem>
+  <assesmentItem subject="jkh" author="fguzman002@ikasle.ehu.eus">
+    <itemBody>
+      <p>segunda pregunta</p>
+    </itemBody>
+    <correctResponse>
+      <response>respuesta correcta</response>
+    </correctResponse>
+    <incorrectResponses>
+      <response>respuesta incorrecta 1</response>
+      <response>fdsafd</response>
+      <response>jl</response>
+    </incorrectResponses>
+  </assesmentItem>
+  <assesmentItem subject="jkh" author="fguzman002@ikasle.ehu.eus">
+    <itemBody>
+      <p>ffksdljflas pregunta</p>
+    </itemBody>
+    <correctResponse>
+      <response>respuesta correcta</response>
+    </correctResponse>
+    <incorrectResponses>
+      <response>respuesta incorrecta 1</response>
+      <response>fdsafd</response>
+      <response>jl</response>
+    </incorrectResponses>
+  </assesmentItem>
+  <assesmentItem subject="jkh" author="fguzman002@ikasle.ehu.eus">
+    <itemBody>
+      <p>ffksdljflas pregunta</p>
+    </itemBody>
+    <correctResponse>
+      <response>respuesta correcta</response>
+    </correctResponse>
+    <incorrectResponses>
+      <response>respuesta incorrecta 1</response>
+      <response>fdsafd</response>
+      <response>jl</response>
+    </incorrectResponses>
+  </assesmentItem>
+  <assesmentItem subject="quiz" author="fguzman002@ikasle.ehu.eus">
+    <itemBody>
+      <p>pregunta fjsdalkjfdkl</p>
+    </itemBody>
+    <correctResponse>
+      <response>respuesta correcta</response>
+    </correctResponse>
+    <incorrectResponses>
+      <response>respuesta incorrecta 1</response>
+      <response>respuesata incorrecta 2</response>
+      <response>respuesta incorrecta 3</response>
+    </incorrectResponses>
+  </assesmentItem>
 </assessmentItems>
